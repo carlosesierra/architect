@@ -1,0 +1,154 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */ /* Document ========================================================================== */ /** * 1. Correct the line height in all browsers. * 2. Prevent adjustments of font size after orientation changes in *    IE on Windows Phone and in iOS. */ html {line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ } /* Sections ========================================================================== */ /** * Remove the margin in all browsers (opinionated). */ body {margin: 0; } /** * Add the correct display in IE 9-. */ article, aside, footer, header, nav, section {display: block; } /** * Correct the font size and margin on `h1` elements within `section` and * `article` contexts in Chrome, Firefox, and Safari. */ h1 {font-size: 2em; margin: 0.67em 0; } /* Grouping content ========================================================================== */ /** * Add the correct display in IE 9-. * 1. Add the correct display in IE. */ figcaption, figure, main { /* 1 */ display: block; } /** * Add the correct margin in IE 8. */ figure {margin: 1em 40px; } /** * 1. Add the correct box sizing in Firefox. * 2. Show the overflow in Edge and IE. */ hr {box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ } /** * 1. Correct the inheritance and scaling of font size in all browsers. * 2. Correct the odd `em` font sizing in all browsers. */ pre {font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ } /* Text-level semantics ========================================================================== */ /** * 1. Remove the gray background on active links in IE 10. * 2. Remove gaps in links underline in iOS 8+ and Safari 8+. */ a {background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ } /** * 1. Remove the bottom border in Chrome 57- and Firefox 39-. * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */ abbr[title] {border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ } /** * Prevent the duplicate application of `bolder` by the next rule in Safari 6. */ b, strong {font-weight: inherit; } /** * Add the correct font weight in Chrome, Edge, and Safari. */ b, strong {font-weight: bolder; } /** * 1. Correct the inheritance and scaling of font size in all browsers. * 2. Correct the odd `em` font sizing in all browsers. */ code, kbd, samp {font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ } /** * Add the correct font style in Android 4.3-. */ dfn {font-style: italic; } /** * Add the correct background and color in IE 9-. */ mark {background-color: #ff0; color: #000; } /** * Add the correct font size in all browsers. */ small {font-size: 80%; } /** * Prevent `sub` and `sup` elements from affecting the line height in * all browsers. */ sub, sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; } sub {bottom: -0.25em; } sup {top: -0.5em; } /* Embedded content ========================================================================== */ /** * Add the correct display in IE 9-. */ audio, video {display: inline-block; } /** * Add the correct display in iOS 4-7. */ audio:not([controls]) {display: none; height: 0; } /** * Remove the border on images inside links in IE 10-. */ img {border-style: none; } /** * Hide the overflow in IE. */ svg:not(:root) {overflow: hidden; } /* Forms ========================================================================== */ /** * 1. Change the font styles in all browsers (opinionated). * 2. Remove the margin in Firefox and Safari. */ button, input, optgroup, select, textarea {font-family: sans-serif; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ } /** * Show the overflow in IE. * 1. Show the overflow in Edge. */ button, input { /* 1 */ overflow: visible; } /** * Remove the inheritance of text transform in Edge, Firefox, and IE. * 1. Remove the inheritance of text transform in Firefox. */ button, select { /* 1 */ text-transform: none; } /** * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video` *    controls in Android 4. * 2. Correct the inability to style clickable types in iOS and Safari. */ button, html [type="button"], /* 1 */ [type="reset"], [type="submit"] {-webkit-appearance: button; /* 2 */ } /** * Remove the inner border and padding in Firefox. */ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {border-style: none; padding: 0; } /** * Restore the focus styles unset by the previous rule. */ button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {outline: 1px dotted ButtonText; } /** * Correct the padding in Firefox. */ fieldset {padding: 0.35em 0.75em 0.625em; } /** * 1. Correct the text wrapping in Edge and IE. * 2. Correct the color inheritance from `fieldset` elements in IE. * 3. Remove the padding so developers are not caught out when they zero out *    `fieldset` elements in all browsers. */ legend {box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ } /** * 1. Add the correct display in IE 9-. * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera. */ progress {display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ } /** * Remove the default vertical scrollbar in IE. */ textarea {overflow: auto; } /** * 1. Add the correct box sizing in IE 10-. * 2. Remove the padding in IE 10-. */ [type="checkbox"], [type="radio"] {box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ } /** * Correct the cursor style of increment and decrement buttons in Chrome. */ [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {height: auto; } /** * 1. Correct the odd appearance in Chrome and Safari. * 2. Correct the outline style in Safari. */ [type="search"] {-webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ } /** * Remove the inner padding and cancel buttons in Chrome and Safari on macOS. */ [type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {-webkit-appearance: none; } /** * 1. Correct the inability to style clickable types in iOS and Safari. * 2. Change font properties to `inherit` in Safari. */ ::-webkit-file-upload-button {-webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ } /* Interactive ========================================================================== */ /* * Add the correct display in IE 9-. * 1. Add the correct display in Edge, IE, and Firefox. */ details, /* 1 */ menu {display: block; } /* * Add the correct display in all browsers. */ summary {display: list-item; } /* Scripting ========================================================================== */ /** * Add the correct display in IE 9-. */ canvas {display: inline-block; } /** * Add the correct display in IE. */ template {display: none; } /* Hidden ========================================================================== */ /** * Add the correct display in IE 10-. */ [hidden] {display: none; }
+
+/*-- general --*/
+
+html, body, div, form, ul, li, a, nav, section {border: 0; padding: 0; margin: 0; vertical-align: top; font-family: 'Martel Sans', sans-serif; color: #333; }
+a {text-decoration: none; cursor: pointer; }
+h1,h2,h3,p {border: 0; padding: 0; margin: 0; }
+ul, ol {list-style-type: none; }
+img {max-width: 100%; height: auto; -ms-interpolation-mode: bicubic; }
+p {padding: 1em 5%; line-height: 1.5em; word-break: break-word; font-size: 16px; font-weight: 300;}
+p.attachment {padding: 0; }
+
+.w90{margin: 0 5%; width: 90%; }
+
+/*-- content --*/
+
+.container {width: 100%; position: relative; top: 80px; padding-bottom:70px; background: #ffffff; /* Old browsers */ background: -moz-linear-gradient(-45deg,  #ffffff 0%, #6c80a6 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#6c80a6 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg,  #ffffff 0%,#6c80a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6c80a6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
+.cont{margin: 20px 5% 0 5%; width: 90%; background: rgba(255,255,255,1); background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1))); background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); }
+.cont h3{padding: 1em 5% .5em 5%; }
+section{width: 96%; margin: 0 auto; }
+
+/*-- top --*/
+
+#sidebar {width: 100%; display: inline-block; top: 0; position: fixed; z-index: 1111; height: 80px; padding: 0; background: #ffffff; /* Old browsers */ background: -moz-linear-gradient(-45deg,  #ffffff 0%, #ffe8ea 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#ffe8ea 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg,  #ffffff 0%,#ffe8ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe8ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
+.logo {text-align: center; padding: 0 10px;display: inline-block; float: left; height: 80px; }
+.logo img {max-width: 100%; max-height: 100%; height: auto; width: auto; }
+
+/*-- menu --*/
+
+.mn {display: inline-block; float: left; height: 80px; }
+.mn input, .mn label, .mn nav {margin: 0; padding: 0; box-sizing: border-box; }
+.hamburger-checkbox {position: absolute; opacity: 0; }
+.hamburger-label {position: absolute; z-index: 1; display: block; font-size: 42px; text-align: center; right: 15px; top: 8px; cursor: pointer; color: rgb(255, 255, 255); }
+.hamburger-checkbox:checked ~ .hamburger-label:before {position: absolute; top: 0; left: 0; z-index: 1; display: block; font-size: 42px; text-align: center; }
+.mainmenu {overflow: hidden; width: 0; height: 100%; transition: all .3s; left: 0; position: fixed; top: 0; }
+.hamburger-checkbox:checked ~ .mainmenu {width: 80%; height: 100%; padding: 1em; left: 0; position: fixed; z-index: 1; 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c80a6+0,6c80a6+100&1+0,0.8+100 */
+background: -moz-linear-gradient(45deg,  rgba(108,128,166,1) 0%, rgba(108,128,166,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(108,128,166,1) 0%,rgba(108,128,166,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(108,128,166,1) 0%,rgba(108,128,166,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c80a6', endColorstr='#cc6c80a6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+/*
+  background: rgba(224,253,255,1); background: -moz-linear-gradient(45deg, rgba(224,253,255,1) 0%, rgba(82,82,82,0.8) 100%); background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(224,253,255,1)), color-stop(100%, rgba(82,82,82,0.8))); background: -webkit-linear-gradient(45deg, rgba(224,253,255,1) 0%, rgba(82,82,82,0.8) 100%); background: -o-linear-gradient(45deg, rgba(224,253,255,1) 0%, rgba(82,82,82,0.8) 100%); background: -ms-linear-gradient(45deg, rgba(224,253,255,1) 0%, rgba(82,82,82,0.8) 100%); background: linear-gradient(45deg, rgba(224,253,255,1) 0%, rgba(82,82,82,0.8) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0fdff', endColorstr='#525252', GradientType=1 ); 
+*/
+}
+.menu li a {padding: .5em 0; display: inline-block; width: 100%; text-align: left; font-size: 18px; font-weight:300;color: rgba(253, 253, 253, 1); }
+.menu li a:hover, .menu li a:active{background: none!important;}
+/*-- homepage --*/
+
+.home {width: 100%; display: inline-block;}
+.home .thumbnail-img .title, .blog .thumbnail-img .title, .home .thumbnail-vid .title, .blog .thumbnail-vid .title {display: none;}
+
+
+/*-- siteorigin --*/
+
+/*-- to be applied --*/
+.tile .ow-button-base a {width: 100%!important; padding: 0!important; border: 0!important; background: none!important; font-size: 1.4em!important; }
+.tile .ow-button-base a span{display: inline-block; width: 80%; height: auto; min-height: 160px; color: #fff; font-weight: lighter; text-align: center; vertical-align: middle; padding: 80px 10%; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.tile .ow-button-base a span:hover{background-color: rgba(255, 255, 255, 0.8);color: #000; }
+.tile .panel-widget-style{background-repeat: no-repeat; background-position: center; }
+.tile .panel-grid-cell{margin-bottom: 0!important;}
+
+
+/*-- page --*/
+.page {width: 100%; display: inline-block;}
+.page .title, .page .thumbnail-img .title, .page .thumbnail-vid .title{display: none;}
+.page .panel-grid{ margin: 20px 4% 0 4%;background: rgba(255,255,255,1); background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1))); background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.1); }
+.page h3{padding: 1em 5% .5em 5%;}
+
+ 
+
+/*-- gallery --*/
+.gallery img {border: 0!important; }
+.gallery-item {width: 50%!important; display: inline-block; margin-top: 0!important; margin: 0; float: left; }
+.gallery-icon {display: inline-block; }
+.gallery-icon a {font-size: 0; display: block; width: 100%; }
+
+/*-- footer --*/
+.footer{width: 100%; position: relative; padding-top: 20px;}
+.footer p, .footer p a{font-size: 11px; color: #333; font-weight: 300;}
+
+/*-- wp classes --*/
+
+.wp-caption {margin-bottom: 1.6em; max-width: 100%; }
+.wp-caption-text {color: #707070; color: rgba(51, 51, 51, 0.7); font-family: "Noto Sans", sans-serif; font-size: 12px; font-size: 1.2rem; line-height: 1.5; padding: 0.5em 0; }
+.sticky {}
+.gallery-caption {font-size: 12px; font-size: 1.2rem; line-height: 1.5; padding: 0.5em 0; }
+.bypostauthor {font-size: 16px; }
+.alignleft {float: left; }
+.alignright {float: right; }
+.aligncenter {float: none; }
+
+/*-- contact form 7 --*/
+
+div.wpcf7 {padding: 1em 5%; }
+.wpcf7 p {width: 90%; display: inline-block; font-size: 16px; }
+.wpcf7 p input, .wpcf7 p textarea {width: 96%; border: solid 1px #efefef; padding: .5em 2%; float: none; -webkit-box-shadow: 0px 0px 5px 3px rgba(239,239,239,0.7); -moz-box-shadow: 0px 0px 5px 3px rgba(239,239,239,0.7); box-shadow: 0px 0px 5px 3px rgba(239,239,239,0.7); }
+.wpcf7 p {line-height: 1.2em; }
+input.wpcf7-form-control.wpcf7-submit {color: #fff; width: 100%; border: 1px solid #999; padding: .5em 5%; float: none; background: rgba(82,86,89,1); background: -moz-linear-gradient(-45deg, rgba(82,86,89,1) 0%, rgba(40,44,48,1) 100%); background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(82,86,89,1)), color-stop(100%, rgba(40,44,48,1))); background: -webkit-linear-gradient(-45deg, rgba(82,86,89,1) 0%, rgba(40,44,48,1) 100%); background: -o-linear-gradient(-45deg, rgba(82,86,89,1) 0%, rgba(40,44,48,1) 100%); background: -ms-linear-gradient(-45deg, rgba(82,86,89,1) 0%, rgba(40,44,48,1) 100%); background: linear-gradient(135deg, rgba(82,86,89,1) 0%, rgba(40,44,48,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525659', endColorstr='#282c30', GradientType=1 ); }
+.wpcf7-form p {margin-bottom: 1em;}
+
+/* metaslider */
+.metaslider .caption-wrap{ background: none!important; opacity: 1!important;} 
+.metaslider .caption {padding: 1em!important; color: #fff; text-align: center; font-weight: 300; 
+background: -moz-linear-gradient(left, rgba(255,232,234,1) 0%, rgba(0,0,0,0.5) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,232,234,1)), color-stop(100%,rgba(0,0,0,0.5)));
+background: -webkit-linear-gradient(left, rgba(255,232,234,1) 0%,rgba(0,0,0,0.5) 100%);
+background: -o-linear-gradient(left, rgba(255,232,234,1) 0%,rgba(0,0,0,0.5) 100%);
+background: -ms-linear-gradient(left, rgba(255,232,234,1) 0%,rgba(0,0,0,0.5) 100%);
+background: linear-gradient(to right, rgba(255,232,234,1) 0%,rgba(0,0,0,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe8ea', endColorstr='#80000000',GradientType=1 );}
+
+/*-- scalable --*/
+
+@media all and (min-width: 420px) {
+  
+}
+
+@media all and (min-width: 781px) {
+
+.home .panel-grid{margin: 0!important}
+.tile .panel-grid-cell{width: 50%!important; padding: 0!important}
+.home .hero-img, .page .hero-img  {overflow: hidden;}
+.page .hero-img img, .home .hero-img img, .sow-slider-image-wrapper{margin-top: -10%; margin-bottom: -10%; width: 100%;}
+ul.rslides li{ margin-top: -10%!important;margin-bottom: -10%!important;}
+.metaslider .caption-wrap{padding-bottom: 22%!important;}
+.metaslider .caption {font-size: 1.4em; line-height: 1.4em; }
+}
+
+@media all and (min-width: 1024px) {
+.tile .panel-grid-cell{width: 25%!important; padding: 0!important}
+.gallery-item { width: 25%!important;}
+}
+
+
+/*IE*/
+.ie .hamburger-checkbox, .ie .hamburger-label {display: none; }
+.ie .browserupgrade {background: #f00; color: black; text-align: center; height: 50px; line-height: 50px; position: fixed; width: 100%; display: inline-block; z-index: 9999; }
+.ie .browserupgrade a {color: black!important; }
+.ie .menu LI A:hover {color: white; }
+.ie #menu-social LI {float: left; }
+
+.wpcf7 p input, .wpcf7 p textarea {color: #000000; }
+
+}
+
+/*PRINT*/
+@media print {*, *:before, *:after {background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; } a, a:visited {text-decoration: underline; } a[href]:after {content: " (" attr(href) ")"; } abbr[title]:after {content: " (" attr(title) ")"; } a[href^="#"]:after, a[href^="javascript:"]:after {content: ""; } pre, blockquote {border: 1px solid #999; page-break-inside: avoid; } thead {display: table-header-group; } tr, img {page-break-inside: avoid; } img {max-width: 100% !important; } p, h2, h3 {orphans: 3; widows: 3; } h2, h3 {page-break-after: avoid; } }
