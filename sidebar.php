@@ -10,7 +10,6 @@
 			<label for="hamburger" class="hamburger-label" role="button" aria-labelledby="menu">&#9776;</label>
 			<nav role="navigation" class="mainmenu">
 				<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
-				<?php wp_nav_menu(array('theme_location'=>'social')); ?>
 			</nav>
 		</div>
 	</div>

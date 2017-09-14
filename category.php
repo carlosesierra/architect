@@ -1,5 +1,6 @@
 <?php get_header();?>
 <?php get_sidebar();?>
+<div class="wrapp">
 <div class="container blog">
   <?php 
 	 if (have_posts() ) :  
@@ -19,5 +20,5 @@
     <?php endwhile;
   endif;
 ?>
-</div>
+</div></div>
 <?php get_footer();?>
